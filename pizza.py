@@ -9,4 +9,4 @@ class Pizza:
             'medium': 10.0,
             'large': 12.0
         }
-        return base_prices[self.size] + 1.0 * len(self.toppings)
+        return base_prices[self.size] + 1.5 * len(self.toppings)
